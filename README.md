@@ -1,40 +1,38 @@
+# AI Meeting Companion (Speech to Text App)
 
-# Business AI Meeting Companion 🧠🎙️
+This project is a beginner-friendly AI meeting assistant that:
+- Converts audio (e.g. meeting recordings) to text using OpenAI’s Whisper
+- Allows users to upload audio and see transcriptions instantly in a simple web interface (Gradio)
 
-This project is an AI-powered meeting assistant that:
-- Transcribes speech to text using OpenAI Whisper
-- Summarizes and extracts key points using IBM Watson LLM
-- Provides a simple web interface with Gradio
+## Features
 
----
-
-## 💡 Features
-
-- 🔊 Audio transcription (MP3 input)
-- 📄 Summarization and key point extraction
-- 🧪 Easy-to-use interface via Gradio
-- 🧠 Uses OpenAI Whisper + IBM Watson + LangChain
-
----
-
-## 📁 Project Files
+- 🎤 Speech to text using Whisper
+- 🌐 Easy-to-use interface via Gradio
+- 🐍 Beginner-friendly Python setup
 
 | File | Description |
 |------|-------------|
 | `simple_speech2text.py` | Downloads and transcribes an audio file |
 | `hello.py`              | Basic Gradio demo app |
 | `speech2text_app.py`    | Upload audio file, see transcription |
-| `simple_llm.py`         | Text generation with IBM Watson LLM |
-| `speech_analyzer.py`    | Full app: transcribe + analyze with LLM |
 | `requirements.txt`      | Python libraries you need |
 
----
 
-## 🚀 How to Run
+## Installation
 
-1. Clone the repo (or download ZIP)
-2. In terminal:
 ```bash
+# Create virtual environment
+pip install virtualenv
+virtualenv my_env
+source my_env/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
-python3 speech_analyzer.py
+
+| File | Description |
+|------|-------------|
+| `simple_speech2text.py` | Downloads and transcribes an audio file |
+| `hello.py`              | Basic Gradio demo app |
+| `speech2text_app.py`    | Upload audio file, see transcription |
+| `requirements.txt`      | Python libraries you need |
 
