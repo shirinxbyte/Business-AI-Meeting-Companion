@@ -3,7 +3,7 @@
 This project is a beginner-friendly AI meeting assistant that:
 - Converts audio (e.g. meeting recordings) to text using OpenAI’s Whisper
 - Allows users to upload audio and see transcriptions instantly in a simple web interface (Gradio)
-
+ 
 ## Features
 
 - 🎤 Speech to text using Whisper
