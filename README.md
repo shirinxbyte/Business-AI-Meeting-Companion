@@ -15,7 +15,7 @@ This project is a beginner-friendly AI meeting assistant that:
 | `simple_speech2text.py` | Downloads and transcribes an audio file |
 | `hello.py`              | Basic Gradio demo app |
 | `speech2text_app.py`    | Upload audio file, see transcription |
-| `requirements.txt`      | Python libraries you need |
+| `requirements.txt`      | Python libraries you need | 
 
 
 ## Installation
