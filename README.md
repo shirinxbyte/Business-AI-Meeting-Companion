@@ -1,4 +1,4 @@
-# AI Meeting Companion (Speech to Text App)
+# AI Meeting Companion (Speech to Text App) 
 
 This project is a beginner-friendly AI meeting assistant that:
 - Converts audio (e.g. meeting recordings) to text using OpenAI’s Whisper
